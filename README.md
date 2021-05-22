@@ -4,14 +4,14 @@ Os códigos do repositório se referem ao desafio técnico para a vaga de Estág
 
 O processo para execução da solução e dos testes está detalhada a seguir.
 
- • Execução da Solução
+    • Execução da Solução
  
 Considerando que o Python esteja devidamente installado, basta executar o comando no diretório do arquivo:
 
  -- python bolsaGotham.py
  
  
-  • Execução da Solução
+    • Execução da Solução
   
 Considerando que o Python e o Pip estejam installados, é necessária a instalação do unittest. Digitar o seguinte comando no diretório do arquivo:
 
