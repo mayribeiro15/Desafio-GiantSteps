@@ -48,12 +48,12 @@ error_list = []
 
 for line in ref_arquivo:
     line = line.rstrip('\n')
-    line = line.split(';')
-    line = [i.split(':') for i in line]
+    strings = line.split(';')
+    strings = [i.split(':') for i in strings]
     
-    side=line[0][1]
-    qty=line[1][1]
-    ticker=line[2][1]
+    side=strings[0][1]
+    qty=strings[1][1]
+    ticker=strings[2][1]
 
     cod_error=validate_line(ticker, side, qty)
 
